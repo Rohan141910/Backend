@@ -1,0 +1,12 @@
+setTimeout(()=>{
+    console.log("Task1")
+},2000);
+setTimeout(()=>{
+    console.log("Task2")
+},6000);
+setTimeout(()=>{
+    console.log("Task3")
+},7000);
+setTimeout(()=>{
+    console.log("Task4")
+},4000);
