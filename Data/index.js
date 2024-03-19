@@ -3,8 +3,8 @@ const app=express()
 const cors=require ("cors")
 app.use(cors())
 app.use(express.json())
-const studentmodel=require("./studentSchema")
-require("./mongoose")
+const studentmodel=require("../studentSchema")
+require("../mongoose")
 
 app.post("/",async(req,resp)=>{
     const data =await new studentmodel(req.body)
