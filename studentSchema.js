@@ -1,6 +1,6 @@
 const mongoose=require("mongoose")
-const ImageSchema=new mongoose.Schema({
+const studentSchema=new mongoose.Schema({
    name:String,
    image:String
 })
-module.exports=mongoose.model("image",ImageSchema)
+module.exports=mongoose.model("image",studentSchema)
