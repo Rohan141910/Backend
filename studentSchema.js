@@ -1,5 +1,5 @@
 const mongoose=require("mongoose")
-const ImageSchemas=new mongoose.Schema({
+const ImageSchema=new mongoose.Schema({
    name:String,
    image:String
 })
